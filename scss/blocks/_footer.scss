@@ -1,0 +1,76 @@
+.site-footer {
+    background-color: #101010;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-start {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+
+.footer-start-third-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+
+.contact-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #A1A8B7;
+}
+
+.gmail-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #A1A8B7;
+}
+
+.map-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #A1A8B7;
+}
+
+.connect-list {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.first-item-img {
+    margin-right: 45.96px;
+}
+
+.second-item-img {
+    margin-right: 44.96px;
+}
+
+.third-item-img {
+    margin-right: 40.16px;
+}
+
+@media only screen and (min-width: 800px) {
+    .footer-start {
+        flex-direction: row;
+    }
+}

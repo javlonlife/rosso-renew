@@ -1,0 +1,124 @@
+.etika {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.etika__title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #e04444;
+}
+
+.etika__mini-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #e04444;
+}
+
+.etika__span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #e04444;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.etika__link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.etika__link:hover {
+    color: #e04444;
+    opacity: 0.8;
+}
+
+.etika__link:active {
+    color: #e04444;
+    opacity: 0.6;
+}
+
+.carusel-img {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+}
+
+.subin {
+    margin-top: 50px;
+}
+
+.last__text {
+    color: #e04444;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.last__text strong {
+    font-size: 28px;
+}
+
+.subin__info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #e04444;
+}
+
+.subin__text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.subin__text strong {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.w-img {
+    display: block;
+    max-width: 600px;
+    width: 100%; height: auto;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 810px) {
+
+    .subin__info {
+        font-size: 28px;
+    }
+
+    .last__text {
+        margin-top: 50px;
+        font-size: 22px;
+    }
+
+    .etika {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .etika__title {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .etika__mini-title {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .etika__text {
+        font-size: 20px;
+    }
+}
